@@ -2,7 +2,6 @@ const config = require("../config.js");
 const client = require("../index.js");
 const { ActionRowBuilder, ButtonBuilder, ButtonStyle, AttachmentBuilder } = require('discord.js');
 const fs = require('fs');
-const puppeteer = require('puppeteer');
 
 client.on("guildCreate", async (guild) => {
     try {
